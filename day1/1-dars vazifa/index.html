@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body onload="studentRender()">
+    <button onclick="click()">Click me</button>
+    <!--  -->
+    <div id="div">Div element</div>
+    <span id="span">Span element</span>
+    <!--  -->
+    <div id="divEl"></div>
+    <!--  -->
+    <input type="text " placeholder="Type here" onchange="oninputChange()">
+    <select name="" id="select" onchange="onSelect(this)">
+        <option value="uz">Uz</option>
+        <option value="ru">Ru</option>
+        <option value="usa">Usa</option>
+    </select>
+    <!--  -->
+    <div id="div1" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+
+    </div>
+    <!--  -->
+
+  
+    <img src="./off.gif" alt="off" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)">
+    <script src="./app.js"></script>
+</body>
+
+</html>

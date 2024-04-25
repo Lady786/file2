@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+    <style>
+        body {
+          background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+          font-family: sans-serif;
+        }
+        .form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+        }
+        .input{
+          color: #333;
+          outline: none;
+          width: 200px;
+          padding: 10px;
+          border-radius: 5px;
+          color:rgb(7, 7, 7)
+        }
+        .btn{
+          color: white;
+          font-size: 13px;
+          background-color: cornflowerblue;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          transition: all 0.4s ease;
+        }
+        .btn:hover{
+          border-radius: 10px;
+          background-color: white;
+          color: cornflowerblue;
+        }
+        .box{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+        }
+        .title{
+          text-align: center;
+          font-weight: bold;
+          font-size: 40px;
+          color:rgb(74, 7, 20)
+        }
+      </style>
+  </head>
+  <body>
+    <form class="form">
+      <input class="input" type="text" placeholder="Add your list"/>
+      <button class="btn">Add</button>
+    </form>
+    <div class="box"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
